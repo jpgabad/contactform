@@ -444,7 +444,14 @@ CONTACT FORM
       <div class="col-12 col-sm-12 col-md-12 col-lg-6">
         <!-- contact form -->
         <div class="wow animated fadeInRight pt-5 pt-md-0" data-wow-delay=".2s">
-          <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+            <form class="shake" role="form" action="https://formsubmit.co/a35d7d2d28202d45639adc439527b9f5" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+              <!--     HONEYPOT           -->
+              <input type="text" name="_honey" style="display:none">
+              
+              <!--     DISABLE RECAPTCHA           -->
+              <input type="hidden" name="_captcha" value="false">
+              
+              <input  type="hidden" name="_next" value="https://jpgabad.github.io/contactform/success.html">
               <!-- Company Name -->
               <div class="form-group label-floating">
                 <label class="control-label" for="name">Company Name</label>
