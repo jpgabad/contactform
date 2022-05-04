@@ -255,7 +255,11 @@ body.modal-open[style], .navbar {
 			margin: 1rem;
 		}
 
-
+    .js__header-contact-success{
+        background-color: var(--navyblue);
+		height: 60vh;		
+		padding-top: 150px;
+    }
 	.tech-bg{
 		background-image: url('img/tech-bg.png');
 		background-color: var(--navyblue);
@@ -974,6 +978,10 @@ SERVICES PAGE
 	.footer-align-center{
 		text-align: center;
 	}
+
+    .js__header-contact-success p {
+        font-size: 20px;
+    }
 	
 
 }
@@ -998,6 +1006,10 @@ SERVICES PAGE
 		font-size: .7rem;
 	}
 	
+    .js__header-contact-success p {
+        font-size: 20px;
+    }
+	
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
@@ -1020,6 +1032,10 @@ SERVICES PAGE
 	.footer-link ul li a{
 		font-size: .7rem;
 	}	
+	
+    .js__header-contact-success p {
+        font-size: 20px;
+    }
 	
 	
 }
@@ -1049,7 +1065,11 @@ SERVICES PAGE
 		.footer-align-center{
 			text-align: center;
 		}
-		
+        
+    .js__header-contact-success p {
+        font-size: 25px;
+    }
+	
  }
 
 
